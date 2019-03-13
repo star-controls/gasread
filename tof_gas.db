@@ -1,0 +1,517 @@
+grecord(calc,"tof_gas_PT-1")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"PSI")
+	field(HOPR,"30")
+	field(HIHI,"25")
+	field(LOLO,"5")
+	field(HIGH,"20")
+	field(LOW,"10")
+	field(HHSV,"MAJOR")
+	field(LLSV,"MAJOR")
+	field(HSV,"MINOR")
+	field(LSV,"MINOR")
+}
+grecord(calc,"tof_gas_PT-2")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"PSI")
+	field(HOPR,"30")
+	field(HIHI,"25")
+	field(LOLO,"3")
+	field(HIGH,"20")
+	field(LOW,"5")
+	field(HHSV,"MAJOR")
+	field(LLSV,"MAJOR")
+	field(HSV,"MINOR")
+	field(LSV,"MINOR")
+}
+grecord(calc,"tof_gas_PT-3")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"PSI")
+	field(HOPR,"30")
+	field(HIHI,"25")
+	field(LOLO,"5")
+	field(HIGH,"20")
+	field(LOW,"10")
+	field(HHSV,"MAJOR")
+	field(LLSV,"MAJOR")
+	field(HSV,"MINOR")
+	field(LSV,"MINOR")
+}
+
+
+grecord(calc,"tof_gas_PT-4")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"WC")
+	field(HOPR,"100")
+	field(HIHI,"75")
+	field(LOLO,"5")
+	field(HIGH,"70")
+	field(LOW,"10")
+	field(HHSV,"MAJOR")
+	field(LLSV,"MAJOR")
+	field(HSV,"MINOR")
+	field(LSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_PT-6")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"WC")
+	field(HOPR,"2.5")
+	field(HIHI,"2.0")
+	field(LOLO,".5")
+	field(HIGH,"1.5")
+	field(LOW,".7")
+	field(HHSV,"MAJOR")
+	field(LLSV,"MAJOR")
+	field(HSV,"MINOR")
+	field(LSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_PT-7")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"WC")
+	field(HOPR,"60")
+	field(HIHI,"55")
+	field(LOLO,"5")
+	field(HIGH,"50")
+	field(LOW,"10")
+	field(HHSV,"MAJOR")
+	field(LLSV,"MAJOR")
+	field(HSV,"MINOR")
+	field(LSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_PT-8")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"WC")
+	field(HOPR,"2.5")
+	field(HIHI,"2.0")
+	field(LOLO,".5")
+	field(HIGH,"1.5")
+	field(LOW,".7")
+	field(HHSV,"MAJOR")
+	field(LLSV,"MAJOR")
+	field(HSV,"MINOR")
+	field(LSV,"MINOR")
+}
+
+
+
+
+
+grecord(calc,"tof_gas_TT-1")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"oC")
+	field(HOPR,"100")
+	field(LOPR,"0")
+}
+
+grecord(calc,"tof_gas_TT-2")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"oC")
+	field(HOPR,"100")
+	field(LOPR,"0")
+}
+
+grecord(calc,"tof_gas_PT-B")
+{
+	field(PREC,"4")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"mbar")
+	field(HOPR,"1083.644")
+	field(LOPR,"880.46")
+	field(HIHI,"1080")
+	field(LOLO,"895")
+	field(HIGH,"1075")
+	field(LOW,"900")
+	field(HHSV,"MAJOR")
+	field(LLSV,"MAJOR")
+	field(HSV,"MINOR")
+	field(LSV,"MINOR")
+}
+
+
+grecord(calc,"tof_gas_O2")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"ppm")
+	field(HOPR,"1000")
+	field(HIHI,"900")
+	field(HIGH,"850")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_H2O")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"ppm")
+	field(HOPR,"1000")
+	field(HIHI,"900")
+	field(HIGH,"850")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_iButhane")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_Res1")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_Res2")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_Res3")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+
+
+
+grecord(calc,"tof_gas_FM-1")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"sccm")
+	field(HOPR,"1200")
+	field(HIHI,"8000")
+	field(LOLO,"180")
+	field(HIGH,"7000")
+	field(LOW,"180")
+	field(HHSV,"MAJOR")
+	field(LLSV,"MAJOR")
+	field(HSV,"MINOR")
+	field(LSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_Res4")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_FM-2")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"sccm")
+	field(HOPR,"6000.6")
+	field(HIHI,"400.0")
+	field(LOLO,"5.")
+	field(HIGH,"300.9")
+	field(LOW,"5.")
+	field(HHSV,"MAJOR")
+	field(LLSV,"MAJOR")
+	field(HSV,"MINOR")
+	field(LSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_Res5")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_FM-3")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"sccm")
+
+}
+
+grecord(calc,"tof_gas_Res6")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+grecord(calc,"tof_gas_Res7")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+grecord(calc,"tof_gas_23")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+grecord(calc,"tof_gas_Res8")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_25")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_Res9")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_27")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_28")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_29")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_30")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_31")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"percent")
+	field(HOPR,"100")
+	field(HIHI,"90")
+	field(HIGH,"85")
+	field(HHSV,"MAJOR")
+	field(HSV,"MINOR")
+}
+
+grecord(calc,"tof_gas_iButh_fm")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"Percentage")
+	field(HOPR,"100")
+}
+
+
+
+
+grecord(calc,"tof_gas_SF6_fm")
+{
+	field(PREC,"2")
+	field(CALC,"A")
+	field(SCAN,"1 second")
+	field(EGU,"Percentage")
+	field(HOPR,"100")
+}
+
+grecord(calc,"tof_gas_TIMESTAMP")
+
+
+
+grecord(ai,"tof_gas_connect_check")
+{
+	field(PREC,"2")
+	field(HIHI,"1")
+	field(HHSV,"MAJOR")
+}
+
+grecord(calc,"MTD_FM-1")
+{
+        field(PREC,"2")
+        field(CALC,"A")
+        field(SCAN,"1 second")
+        field(EGU,"sccm")
+        field(HOPR,"1200")
+        field(HIHI,"8000")
+        field(LOLO,"180")
+        field(HIGH,"7000")
+        field(LOW,"180")
+        field(HHSV,"MAJOR")
+        field(LLSV,"MAJOR")
+        field(HSV,"MINOR")
+        field(LSV,"MINOR")
+}
+
+grecord(calc,"MTD_FM-2")
+{
+        field(PREC,"2")
+        field(CALC,"A")
+        field(SCAN,"1 second")
+        field(EGU,"sccm")
+        field(HOPR,"6000.6")
+        field(HIHI,"400.0")
+        field(LOLO,"5.")
+        field(HIGH,"300.9")
+        field(LOW,"5.")
+        field(HHSV,"MAJOR")
+        field(LLSV,"MAJOR")
+        field(HSV,"MINOR")
+        field(LSV,"MINOR")
+}
+

@@ -59,11 +59,14 @@ class gasread_tof(gasread):
 
         #create addidional calc records for isobuthane fractions in TOF and MTD
         self.c1 = self.make_fm_calc("MTD_FM2dFM1", "MTD_FM-2", "MTD_FM-1")
-        self.c2 = self.make_fm_calc("tof_fm2dfm1", "tof_gas_FM-2", "tof_gas_FM-1")
+        self.c2 = self.make_fm_calc("tof_fm2dfm1", "tof_gas_FM-2", "tof_gas_FM-1", "100*A/(A+B)")
+        self.c2.HIGH = 5.7
+        self.c2.HIHI = 6
+        self.c2.HOPR = 6.5
 
     #_____________________________________________________________________________
-    def make_fm_calc(self, name, anam, bnam):
-        cx = records.calc(name, CALC="A/B", PREC=3, HOPR=0.065)
+    def make_fm_calc(self, name, anam, bnam, cexp="A/B"):
+        cx = records.calc(name, CALC=cexp, PREC=3, HOPR=0.065)
         inpa = self.pvs.get(anam)
         inpb = self.pvs.get(bnam)
         cx.INPA = inpa.name + " MS"
@@ -76,4 +79,5 @@ class gasread_tof(gasread):
         cx.HHSV = "MAJOR"
         cx.HSV = "MINOR"
 
+        return cx
 
